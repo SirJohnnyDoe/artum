@@ -1,0 +1,85 @@
+h1,
+h2,
+h3 {
+	font-family: "Oranienbaum", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h1 {
+	font-size: 96px;
+	line-height: 1em;
+	@media (max-width: 1200px) {
+		font-size: 76px;
+		@media (max-width: 940px) {
+			font-size: 40px;
+		}
+	}
+}
+h2  {
+	font-size: 64px;
+	line-height: 78px;
+	@media (max-width: 1200px) {
+		font-size: 52px;
+		line-height: 64px;
+		@media (max-width: 940px) {
+			font-size: 36px;
+			line-height: 44px;
+		}
+	}
+}
+h3 {
+	font-size: 52px;
+	line-height: 64px;
+	text-transform: uppercase;
+	@media (max-width: 1200px) {
+		font-size: 40px;
+		line-height: 48px;
+		@media (max-width: 940px) {
+			font-size: 30px;
+			line-height: 36px;
+		}
+	}
+}
+h4 {
+	font-size: 24px;
+	line-height: 32px;
+	@media (max-width: 1200px) {
+		font-size: 22px;
+		line-height: 28px;
+		@media (max-width: 940px) {
+			font-size: 20px;
+			line-height: 26px;
+		}
+	}
+}
+h5 {
+	font-size: 20px;
+	line-height: 26px;
+	@media (max-width: 1200px) {
+		font-size: 19px;
+		line-height: 24px;
+		@media (max-width: 940px) {
+			font-size: 18px;
+			line-height: 22px;
+		}
+	}
+}
+p,
+li {
+	font-size: 16px;
+	line-height: 24px;
+	&.cupstext {
+		font-size: 16px;
+		line-height: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+}
+h6 {
+	font-size: 14px;
+	line-height: 18px;
+}
+sup {
+	font-size: 0.5em;
+	line-height: 0;
+}

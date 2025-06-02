@@ -1,0 +1,148 @@
+.icon {
+	display: block;
+	width: 24px;
+	min-width: 24px;
+	height: 24px;
+	&.icon-big {
+		width: 48px;
+		min-width: 48px;
+		height: 48px;
+	}
+	& svg, img {
+		width: 100%;
+		height: 100%;
+	}
+}
+.icon-arrow-left {
+	background: url("../img/iconArrowLeft.svg") no-repeat center center/contain;
+}
+.icon-arrow-right {
+	background: url("../img/iconArrowRight.svg") no-repeat center center/contain;
+}
+.icon-attention {
+	background: url("../img/iconAttention.svg") no-repeat center center/contain;
+}
+.icon-author {
+	background: url("../img/iconAuthor.svg") no-repeat center center/contain;
+}
+.icon-bullit {
+	background: url("../img/iconBullit.svg") no-repeat center center/contain;
+}
+.icon-burger {
+	background: url("../img/iconBurger.svg") no-repeat center center/contain;
+}
+.icon-count {
+	background: url("../img/iconCount.svg") no-repeat center center/contain;
+}
+.icon-design {
+	background: url("../img/iconDesign.svg") no-repeat center center/contain;
+}
+.icon-email {
+	background: url("../img/iconEmail.svg") no-repeat center center/contain;
+}
+.icon-engineer {
+	background: url("../img/iconEngineer.svg") no-repeat center center/contain;
+}
+.icon-author {
+	background: url("../img/iconAuthor.svg") no-repeat center center/contain;
+}
+.icon-heart {
+	background: url("../img/iconHeart.svg") no-repeat center center/contain;
+}
+.icon-home {
+	background: url("../img/iconHome.svg") no-repeat center center/contain;
+}
+.icon-man {
+	background: url("../img/iconMan.svg") no-repeat center center/contain;
+}
+.icon-no {
+	background: url("../img/iconNo.svg") no-repeat center center/contain;
+}
+.icon-close {
+	background: url("../img/iconNo.svg") no-repeat center center/contain;
+}
+.icon-ok {
+	background: url("../img/iconOk.svg") no-repeat center center/contain;
+}
+.icon-partner {
+	background: url("../img/iconPartner.svg") no-repeat center center/contain;
+}
+.icon-phone {
+	background: url("../img/iconPhone.svg") no-repeat center center/contain;
+}
+.icon-pin {
+	background: url("../img/iconPin.svg") no-repeat center center/contain;
+}
+.icon-play {
+	background: url("../img/iconPlay.svg") no-repeat center center/contain;
+}
+.icon-plus {
+	background: url("../img/iconPlus.svg") no-repeat center center/contain;
+}
+.icon-scale {
+	background: url("../img/iconScale.svg") no-repeat center center/contain;
+}
+.icon-search {
+	background: url("../img/iconSearch.svg") no-repeat center center/contain;
+}
+.icon-shevrondown {
+	background: url("../img/iconShevronDown.svg") no-repeat center center/contain;
+}
+.icon-shevronleft {
+	background: url("../img/iconShevronLeft.svg") no-repeat center center/contain;
+}
+.icon-shevronright {
+	background: url("../img/iconShevronRight.svg") no-repeat center center/contain;
+}
+.icon-shevronup {
+	background: url("../img/iconShevronUp.svg") no-repeat center center/contain;
+}
+.icon-stage {
+	background: url("../img/iconStage.svg") no-repeat center center/contain;
+}
+.icon-time {
+	background: url("../img/iconTime.svg") no-repeat center center/contain;
+}
+.icon-vk {
+	background: url("../img/VK.svg") no-repeat center center/contain;
+}
+.icon-inst {
+	background: url("../img/Instagram.svg") no-repeat center center/contain;
+}
+.icon-tlgrm {
+	background: url("../img/Telegram.svg") no-repeat center center/contain;
+}
+.icon-whatsapp {
+	background: url("../img/WhatsApp.svg") no-repeat center center/contain;
+}
+.icon-whatsapp {
+	background: url("../img/WhatsApp.svg") no-repeat center center/contain;
+}
+.icon-youtube {
+	background: url("../img/Youtube.svg") no-repeat center center/contain;
+}
+.icon-fb {
+	background: url("../img/Facebook.svg") no-repeat center center/contain;
+}
+.icon-mail {
+	background: url("../img/mail.svg") no-repeat center center/contain;
+}
+.icon-call {
+	background: url("../img/call_24px.svg") no-repeat center center/contain;
+}
+.icon-bookmark {
+	background: url("../img/iconBookmark.svg") no-repeat center center/contain;
+}
+.icon-share {
+	background: url("../img/iconShare.svg") no-repeat center center/contain;
+}
+
+
+
+
+
+
+
+
+
+

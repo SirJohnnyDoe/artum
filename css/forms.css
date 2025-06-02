@@ -1,0 +1,116 @@
+/*RadioInputs*/
+.form-choice {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+	gap: 0.3em;
+	position: relative;
+	line-height: 24px;
+}
+.choice-input {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	opacity: 0;
+}
+.choice-label:before,
+.choice-label:after{
+		display: block;
+		content:"";
+		position: absolute;
+		border-radius:50%;
+		box-sizing: border-box;
+}
+.checkbox-label:before,
+.checkbox-label:after{
+	border-radius: 0;
+}
+.choice-label:before {
+	width: 24px;
+	height: 24px;
+	top:0;
+	left:0;
+	background: var(--main-white);
+	border:2px solid var(--main-black16);
+}
+.form-choice  .choice-input:checked ~ .choice-label:before {
+	border:2px solid var(--main-primary);
+}
+.form-choice:hover  .choice-input:checked ~ .choice-label:before {
+	border:2px solid var(--btn-primary-hover);
+}
+
+.choice-label:after {
+	width: 16px;
+	height: 16px;
+	top:4px;
+	left:4px;
+	background: var(--main-primary);
+	display: none;
+}
+
+.form-choice:hover .choice-label:before {
+	border:2px solid var(--btn-primary-hover);
+}
+
+.form-choice:active .choice-label:before,
+.form-choice:active .choice-input:checked ~ .choice-label:before{
+	border:2px solid var(--btn-primary-active);
+}
+.form-choice  .choice-input:checked ~ .choice-label:after {
+	display: block;
+}
+.form-choice  .choice-input:checked ~ .choice-label:after {
+	display: block;
+}
+.form-choice:hover .choice-label:after {
+	background: var(--btn-primary-hover);
+}
+.form-choice:active .choice-label:after {
+	background: var(--btn-primary-active);
+}
+
+
+/*TextInputs*/
+.text-input-holder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+	gap: 0.3em;
+	position: relative;
+	border:1px solid var(--main-primary);
+	padding:16px;
+	:is(input) {
+		flex:1 1 auto;
+		min-height: 24px;
+		outline: none;
+		border: 1px solid transparent;
+		box-sizing: border-box;
+		min-width: 24px;
+	}
+	&:hover {
+		border:1px solid var(--btn-secondary-hover);
+
+	}
+	&:active {
+		border:1px solid var(--btn-secondary-active);
+	}
+	&.state-error {
+		border:1px solid var(--msg-error);
+	}
+	.field-error {
+		position: absolute;
+		top:100%;
+		left:16px;
+		font-size: 14px;
+		line-height: 18px;
+		color:var(--msg-error);
+	}
+}
+
